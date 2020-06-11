@@ -30,7 +30,7 @@ int main(){
         char server_response[256];
         recv(network_socket,server_response,sizeof(server_response),0);
     //printout the server response
-        printf("Avinash has sent a message: %s\n",server_response);
+        printf("Message Received: %s\n",server_response);
    
     
     
